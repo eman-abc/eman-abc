@@ -1,5 +1,6 @@
 Hi, I'm Eman Chaudhary
 Software Engineering Student @ NUST SEECS
+
 Focus: Deep Learning | NLP | Edge AI
 
 **About Me**
@@ -24,6 +25,7 @@ Apna-Wifi, NUST NSTP (Jun 2024 – Aug 2024)
 
 
 **Featured Projects**
+  
   Deep Learning-based 5G Channel Estimation – CNN & CNN-Transformer hybrids for mmWave estimation, optimized for Jetson devices.
   SmartSketch (FYP – In Progress) – Conversational AI for generating/editing human faces from natural language descriptions.
   Udemy Scraper – Automated scraping of Udemy courses using Python, BeautifulSoup, and Selenium.
