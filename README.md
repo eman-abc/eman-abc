@@ -10,7 +10,7 @@ Currently working on my FYP: a generative AI system for text-to-face synthesis.
 Contributor to NASA OSDR AI/ML Working Groups in space health and biology research.
 
 **Experience**
-NASA Open Science Data Repository (OSDR) – AI/ML Analysis Working Group (Jul 2025 – Present)
+Open Science Data Repository (OSDR) – AI/ML Analysis Working Group (Jul 2025 – Present)
   > Member of Causal Inference and DNA Damage Imaging subgroups.
   > Exploring causal representation learning and agentic AI for autonomous reasoning on spaceflight datasets.
   > Applying deep learning to high-resolution microscopy for radiation-induced DNA damage classification.
