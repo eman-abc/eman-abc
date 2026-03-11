@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Eman Chaudhary </h1>
-<h3 align="center">Full-Stack AI Engineer · LLM & RAG Systems · NUST '26</h3>
+<h3 align="center">Full-Stack AI Engineer · Generative AI · LLM & RAG Systems  · NUST '26</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/eman-chaudhary/"><img src="https://img.shields.io/badge/LinkedIn-eman--chaudhary-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
