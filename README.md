@@ -25,12 +25,23 @@ I'm a Software Engineering undergraduate at **NUST, Islamabad** (graduating May 
 ### [Enterprise RAG & LLM Banking Assistant](https://github.com/eman-abc/nust-bank-llm-assistant)
 > `Python` `FastAPI` `React` `LangChain` `LlamaIndex` `Gemma 3 4B` `FAISS` `Docker`
 
-Production-grade full-stack AI chatbot with a React frontend and FastAPI backend.
-- Built an end-to-end RAG pipeline using FAISS vector databases for semantic search and autonomous AI Agent workflows
-- Fine-tuned **Gemma 3 4B** via Hugging Face (PEFT/LoRA) for domain-specific banking reasoning
-- Engineered secure data ingestion pipelines with automated PII anonymization, processing **10GB+ daily data**
-- Delivered real-time streaming LLM responses with **sub-800ms latency**
 
+### [AI-Driven Customer Service Assistant for NUST Bank (RAG System)](https://github.com/eman-abc/nust-bank-llm-assistant)
+> `Gemma-3-4B`, `PEFT/LoRA`, `Qdrant`, `sentence-transformers`, `Presidio`, `Celery`, `FastAPI`, `Redis`, `Gradio`
+- Architected an end-to-end Retrieval-Augmented Generation (RAG) pipeline for a banking assistant,
+integrating hybrid retrieval (dense semantic search via all-MiniLM-L6-v2 embeddings + BM25 sparse retrieval)
+with a cross-encoder reranker (ms-marco-MiniLM-L-6-v2) to maximize context precision and reduce
+hallucinations.
+- Fine-tuned Gemma-3-4B using PEFT/LoRA (rank=8, alpha=16) on domain-specific banking FAQs and policy
+documents, achieving convergence in under 10 epochs on a single GPU while preserving base model generalization.
+- Built a multi-layered safety guardrails framework: pre-LLM prompt injection detection via DeBERTa-based
+classifiers, post-LLM confidence gating (similarity threshold 0.8), and regex-based PII leak prevention on generated
+outputs.
+- Engineered a zero-trust data pipeline using Presidio and spaCy NER for full PII anonymization (names,
+account numbers, addresses) before ingestion, combined with semantic chunking (512-token chunks) and async
+document processing via Celery workers and Redis task queuing.
+- Deployed vectors in Qdrant with real-time indexing to support live knowledge base updates without model
+retraining, achieving sub-second response times via FastAPI asynchronous backend architecture
 ---
 
 ### [Autonomous AI Research Agent & Workflow Orchestration](https://github.com/eman-abc)
