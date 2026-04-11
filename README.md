@@ -22,12 +22,8 @@ I'm a Software Engineering undergraduate at **NUST, Islamabad** (graduating May 
 
 ## Featured Projects & Research
 
-### [Enterprise RAG & LLM Banking Assistant](https://github.com/eman-abc/nust-bank-llm-assistant)
-> `Python` `FastAPI` `React` `LangChain` `LlamaIndex` `Gemma 3 4B` `FAISS` `Docker`
-
-
 ### [AI-Driven Customer Service Assistant for NUST Bank (RAG System)](https://github.com/eman-abc/nust-bank-llm-assistant)
-> `Gemma-3-4B`, `PEFT/LoRA`, `Qdrant`, `sentence-transformers`, `Presidio`, `Celery`, `FastAPI`, `Redis`, `Gradio`
+> `Gemma-3-4B`, `PEFT/LoRA`, `Qdrant`, `sentence-transformers`, `Presidio`, `Celery`, `FastAPI`, `Redis`, `Gradio`, `Docker`
 - Architected an end-to-end Retrieval-Augmented Generation (RAG) pipeline for a banking assistant,
 integrating hybrid retrieval (dense semantic search via all-MiniLM-L6-v2 embeddings + BM25 sparse retrieval)
 with a cross-encoder reranker (ms-marco-MiniLM-L-6-v2) to maximize context precision and reduce
