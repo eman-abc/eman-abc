@@ -40,6 +40,18 @@ document processing via Celery workers and Redis task queuing.
 retraining, achieving sub-second response times via FastAPI asynchronous backend architecture
 ---
 
+### [LeadStream-Voice: AI-Powered B2B Call Triage Platform](https://github.com/eman-abc/LeadStream-voice)
+> `Node.js` `TypeScript` `Groq API (Llama-3.1)` `Vapi` `Docker` `Render` `WebSockets`
+> > **[Live Demo](https://dino-voice.onrender.com)**
+
+Real-time voice AI triage agent for deterministic lead qualification and CRM dispatch.
+- Engineered a native TypeScript state machine for routing and entity-aware conversational state, eliminating framework overhead (zero LangChain/LangGraph dependencies).
+- Implemented a 3-layer hallucination defense system utilizing API-level stop sequences, full conversation history context, and post-processing regex to strictly prevent LLM autocomplete behaviors.
+- Built a robust webhook controller to handle Vapi audio stream events, featuring an echo deduplication guard to prevent transcription feedback loops.
+- Architected an asynchronous end-of-call pipeline using Groq (JSON mode) for reliable entity extraction (`{name, email}`) and one-sentence problem summaries for direct CRM injection.
+- Deployed as a containerized webhook service via **Docker** on **Render**, featuring an in-memory session tracker and WebSockets to broadcast real-time call states to a live dashboard.
+
+
 ### [Autonomous AI Research Agent & Workflow Orchestration](https://github.com/eman-abc)
 > `n8n` `Python` `Gemini 2.0` `LangGraph` `RAG` `Tavily API` `Vector Databases`
 
