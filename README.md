@@ -62,7 +62,7 @@ Multi-agent automation system for complex intelligence workflows.
 
 ---
 
-### [SmartSketch: AI-Powered Forensic Facial Image Generator](https://github.com/eman-abc/smartsketch-ml)
+### [SmartSketch: AI-Powered Forensic Facial Image Generator](https://github.com/eman-abc/SmartSketchAI)
 > `SDXL 1.0` `LoRA` `ControlNet` `Qwen2.5-3B` `OpenAI CLIP` `PyTorch` `FastAPI`
 
 Generative AI pipeline for text-guided forensic face synthesis.
