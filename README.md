@@ -24,7 +24,7 @@ I'm a Software Engineering undergraduate at **NUST, Islamabad** (graduating May 
 ### [Industrial Predictive Maintenance System (NASA C-MAPSS)]([https://github.com/eman-abc](https://github.com/eman-abc/predictive-maintenance))
 > `Python` `scikit-learn` `PyTorch (LSTM)` `MLflow` `FastAPI` `Streamlit` `Ollama` `Databricks SQL` `Delta Lake` `Docker Compose` `Cloudflare Tunnel` `Caddy`
 
-End-to-end predictive maintenance for turbofan engines — from raw sensor telemetry to fleet health scoring, CMMS work-order routing, and LLM-generated operator briefings.
+End-to-end predictive maintenance for turbofan engines, from raw sensor telemetry to fleet health scoring, CMMS work-order routing, and LLM-generated operator briefings.
 
 - Architected a **3-phase ML pipeline** over NASA C-MAPSS (FD001–FD004): Phase 1 YAML-driven EDA → Phase 2 preprocessing (per-unit z-score, KMeans op-condition clustering, rolling/lag/spectral features) → Phase 3 model selection tracked via **MLflow**, winner chosen by lowest NASA PHM score.
 - Trained an ensemble of **RUL regressors** (RF, GBM, PyTorch LSTM), **GBM failure classifiers** (P(fail@30 / @72 cycles)), and an **Isolation Forest anomaly detector**; composite health score computed as `0.6×RUL + 0.4×(1−P_fail30)`.
