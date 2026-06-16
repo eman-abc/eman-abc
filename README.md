@@ -21,7 +21,7 @@ I'm a Software Engineering undergraduate at **NUST, Islamabad** (graduating May 
 
 ## Featured Projects & Research
 
-### [Industrial Predictive Maintenance System (NASA C-MAPSS)](https://github.com/eman-abc)
+### [Industrial Predictive Maintenance System (NASA C-MAPSS)]([https://github.com/eman-abc](https://github.com/eman-abc/predictive-maintenance))
 > `Python` `scikit-learn` `PyTorch (LSTM)` `MLflow` `FastAPI` `Streamlit` `Ollama` `Databricks SQL` `Delta Lake` `Docker Compose` `Cloudflare Tunnel` `Caddy`
 
 End-to-end predictive maintenance for turbofan engines — from raw sensor telemetry to fleet health scoring, CMMS work-order routing, and LLM-generated operator briefings.
