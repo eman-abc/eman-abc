@@ -57,15 +57,6 @@ End-to-end predictive maintenance for turbofan engines, from raw sensor telemetr
 
 ---
 
-### [Autonomous AI Research Agent & Workflow Orchestration](https://github.com/eman-abc)
-> `n8n` `Python` `Gemini 2.0` `LangGraph` `RAG` `Tavily API` `Vector Databases`
-
-- Engineered an **Agentic RAG pipeline** using **n8n** visual orchestration for dynamic vector DB querying + live web search.
-- Designed a Researcher LLM + Editor LLM collaboration architecture for end-to-end workflow automation.
-- Applied **LangGraph** orchestration: ReAct loops, tool calling, and specialist agent handoffs (Sequential, Routing, Handoff patterns).
-
----
-
 ### [SmartSketch: AI-Powered Forensic Facial Image Generator](https://github.com/eman-abc/SmartSketchAI)
 > `SDXL 1.0` `LoRA` `ControlNet` `Qwen2.5-3B` `OpenAI CLIP` `PyTorch` `FastAPI`
 
