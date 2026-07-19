@@ -16,7 +16,7 @@
         <img src="./image.png" alt="Resume Thumbnail" width="180">
       </a>
       <br>
-      <strong>📄 Checkout my Resume!</strong>
+      <strong>Checkout my Resume</strong>
     </td>
   </tr>
 </table>
