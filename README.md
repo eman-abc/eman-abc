@@ -10,7 +10,7 @@
 
 ## About Me
 
-I'm a Software Engineering undergraduate at **NUST, Islamabad** (graduating May 2026), building production-grade AI systems across the full stack,  from LLM fine-tuning and RAG pipeline architecture to React/FastAPI applications and cloud deployment.
+I'm a Software Engineer from **NUST, Islamabad**, building AI systems across the full stack,  from LLM fine-tuning and RAG pipeline architecture to React/FastAPI applications and cloud deployment.
 
 - 🇨🇦 **Mitacs Globalink Research Scholar**: AI research at Brock University (2026), automated Root Cause Analysis systems with Code Llama + RAG
 - **NASA OSDR AIML Working Group**: ML on space biology imaging datasets (OSD-366)
