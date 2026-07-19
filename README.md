@@ -10,37 +10,48 @@
 
 ## About Me
 
-I'm a Software Engineer from **NUST, Islamabad**, building AI systems across the full stack,  from LLM fine-tuning and RAG pipeline architecture to React/FastAPI applications and cloud deployment.
+<table>
+  <tr>
+    <td width="70%">
+      <p>I'm a Software Engineer from <strong>NUST, Islamabad</strong>, building AI systems across the full stack, from LLM fine-tuning and RAG pipeline architecture to React/FastAPI applications and cloud deployment.</p>
+      
+      <ul>
+        <li>🇨🇦 <strong>Mitacs Globalink Research Scholar</strong>: AI research at Brock University (2026), automated Root Cause Analysis systems with Code Llama + RAG</li>
+        <li><strong>NASA OSDR AIML Working Group</strong>: ML on space biology imaging datasets (OSD-366)</li>
+        <li><strong>Previously: Machine Learning Intern @ SINES EmbedAIoT Lab</strong> — Architected edge-optimized CNNs for 5G channel estimation (Published at ICODT 2025)</li>
+        <li><strong>Previously:</strong> SWE Intern @ Apna-Wifi (NSTP)</li>
+      </ul>
+    </td>
+    <td width="30%" align="center" style="padding: 20px;">
+      <a href="https://github.com/eman-abc/eman-abc/blob/main/Eman_Resume%20github.pdf">
+        <img src="./image.png" alt="Resume Thumbnail" width="180" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;" />
+      </a>
+      <p><strong><em>📄 Checkout my Resume!</em></strong></p>
+    </td>
+  </tr>
+</table>
 
-- 🇨🇦 **Mitacs Globalink Research Scholar**: AI research at Brock University (2026), automated Root Cause Analysis systems with Code Llama + RAG
-- **NASA OSDR AIML Working Group**: ML on space biology imaging datasets (OSD-366)
-- **Previously: Machine Learning Intern @ SINES EmbedAIoT Lab** — Architected edge-optimized CNNs for 5G channel estimation (Published at ICODT 2025)
-- **Previously:** SWE Intern @ Apna-Wifi (NSTP)
-- 
-<a href="./Eman_Resume%20github.pdf">
-  <img src="./image.png" width="400" alt="Checkout my Resume!">
-</a>
 ---
 
 ## Featured Projects & Research
 
-### [Industrial Predictive Maintenance System (NASA C-MAPSS)]([https://github.com/eman-abc](https://github.com/eman-abc/predictive-maintenance))
+### [Industrial Predictive Maintenance System (NASA C-MAPSS)](https://github.com/eman-abc/predictive-maintenance)
 > `Python` `scikit-learn` `PyTorch (LSTM)` `MLflow` `FastAPI` `Streamlit` `Ollama` `Databricks SQL` `Delta Lake` `Docker Compose` `Cloudflare Tunnel` `Caddy`
 
 End-to-end predictive maintenance for turbofan engines, from raw sensor telemetry to fleet health scoring, CMMS work-order routing, and LLM-generated operator briefings.
 
-- Architected a **3-phase ML pipeline** over NASA C-MAPSS (FD001–FD004): Phase 1 YAML-driven EDA → Phase 2 preprocessing (per-unit z-score, KMeans op-condition clustering, rolling/lag/spectral features) → Phase 3 model selection tracked via **MLflow**, winner chosen by lowest NASA PHM score.
-- Trained an ensemble of **RUL regressors** (RF, GBM, PyTorch LSTM), **GBM failure classifiers** (P(fail@30 / @72 cycles)), and an **Isolation Forest anomaly detector**; composite health score computed as `0.6×RUL + 0.4×(1−P_fail30)`.
+- Architected a **3-phase ML pipeline** over NASA C-MAPSS (FD001–FD004): Phase 1 YAML-driven EDA → Phase 2 preprocessing (per-unit z-score, KMeans op-condition clustering, rolling/lag/spectral fea[...]
+- Trained an ensemble of **RUL regressors** (RF, GBM, PyTorch LSTM), **GBM failure classifiers** (P(fail@30 / @72 cycles)), and an **Isolation Forest anomaly detector**; composite health score compute[...]
 - Built a **ThresholdEngine** with P1/P2/P3 SLA-based CMMS routing, writing work orders to **Databricks Delta Lake** tables via manual operator dispatch and critical auto-dispatch paths.
-- Integrated **Ollama (Llama 3.2)** for grounded asset briefings, shift handover summaries, and model-metrics narratives served through a **FastAPI** REST backend (`/fleet`, `/alerts`, `/briefings`, `/cmms`) and a **Streamlit** fleet dashboard.
-- Deployed via **Docker Compose** (Ollama + FastAPI + Streamlit + Caddy reverse proxy) with a **Cloudflare** quick tunnel for live demo; Streamlit operates as a thin API client when `API_BASE_URL` is set, fully decoupling UI from training artifacts.
+- Integrated **Ollama (Llama 3.2)** for grounded asset briefings, shift handover summaries, and model-metrics narratives served through a **FastAPI** REST backend (`/fleet`, `/alerts`, `/briefings`, `[...]
+- Deployed via **Docker Compose** (Ollama + FastAPI + Streamlit + Caddy reverse proxy) with a **Cloudflare** quick tunnel for live demo; Streamlit operates as a thin API client when `API_BASE_URL` is [...]
 
 ---
 
 ### [AI-Driven Customer Service Assistant for NUST Bank (RAG System)](https://github.com/eman-abc/nust-bank-llm-assistant)
 > `Gemma-3-4B` `PEFT/LoRA` `Qdrant` `sentence-transformers` `Presidio` `Celery` `FastAPI` `Redis` `Gradio` `Docker`
 
-- Architected an end-to-end **RAG pipeline** with hybrid retrieval (dense `all-MiniLM-L6-v2` + BM25 sparse) and a cross-encoder reranker (`ms-marco-MiniLM-L-6-v2`) to maximize context precision and reduce hallucinations.
+- Architected an end-to-end **RAG pipeline** with hybrid retrieval (dense `all-MiniLM-L6-v2` + BM25 sparse) and a cross-encoder reranker (`ms-marco-MiniLM-L-6-v2`) to maximize context precision and re[...]
 - Fine-tuned **Gemma-3-4B** with **PEFT/LoRA** (rank=8, alpha=16) on domain-specific banking FAQs, converging in under 10 epochs on a single GPU.
 - Built a multi-layered safety guardrails framework: pre-LLM prompt injection detection via **DeBERTa**, post-LLM confidence gating (threshold 0.8), and regex PII leak prevention.
 - Engineered a zero-trust data pipeline with **Presidio** + **spaCy NER** for full PII anonymization, semantic chunking (512-token), and async ingestion via **Celery** + **Redis**.
