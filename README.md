@@ -14,7 +14,6 @@
   <tr>
     <td width="70%">
       <p>I'm a Software Engineer from <strong>NUST, Islamabad</strong>, building AI systems across the full stack, from LLM fine-tuning and RAG pipeline architecture to React/FastAPI applications and cloud deployment.</p>
-      
       <ul>
         <li>🇨🇦 <strong>Mitacs Globalink Research Scholar</strong>: AI research at Brock University (2026), automated Root Cause Analysis systems with Code Llama + RAG</li>
         <li><strong>NASA OSDR AIML Working Group</strong>: ML on space biology imaging datasets (OSD-366)</li>
@@ -22,10 +21,11 @@
         <li><strong>Previously:</strong> SWE Intern @ Apna-Wifi (NSTP)</li>
       </ul>
     </td>
-    <td width="30%" align="center" style="padding: 20px;">
+    <td width="30%" align="center">
       <a href="https://github.com/eman-abc/eman-abc/blob/main/Eman_Resume%20github.pdf">
-        <img src="./image.png" alt="Resume Thumbnail" width="180" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;" />
+        <img src="./image.png" alt="Resume Thumbnail" width="180">
       </a>
+      <br>
       <p><strong><em>📄 Checkout my Resume!</em></strong></p>
     </td>
   </tr>
