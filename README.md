@@ -17,7 +17,9 @@ I'm a Software Engineer from **NUST, Islamabad**, building AI systems across the
 - **Previously: Machine Learning Intern @ SINES EmbedAIoT Lab** — Architected edge-optimized CNNs for 5G channel estimation (Published at ICODT 2025)
 - **Previously:** SWE Intern @ Apna-Wifi (NSTP)
 - 
-[![Checkout my Resume!](./image.png)]([./Eman_Resume github.pdf])
+<a href="./Eman_Resume%20github.pdf">
+  <img src="./image.png" width="400" alt="Checkout my Resume!">
+</a>
 ---
 
 ## Featured Projects & Research
