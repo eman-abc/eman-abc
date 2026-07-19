@@ -16,9 +16,7 @@
         <img src="./image.png" alt="Resume Thumbnail" width="180">
       </a>
       <br>
-      <a href="https://github.com/eman-abc/eman-abc/blob/main/Eman_Resume%20github.pdf">
-        <strong><em>Checkout my Resume</em></strong>
-      </a>
+      <strong>📄 Checkout my Resume!</strong>
     </td>
   </tr>
 </table>
@@ -27,7 +25,7 @@ I'm a Software Engineer from **NUST, Islamabad**, building AI systems across the
 
 - 🇨🇦 **Mitacs Globalink Research Scholar**: AI research at Brock University (2026), automated Root Cause Analysis systems with Code Llama + RAG
 - **NASA OSDR AIML Working Group**: ML on space biology imaging datasets (OSD-366)
-- **Previously: Machine Learning Intern @ SINES EmbedAIoT Lab** — Architected edge-optimized CNNs for 5G channel estimation (Published at ICODT 2025)
+- **Previously: Machine Learning Intern @ SINES EmbedAIoT Lab**: Architected edge-optimized CNNs for 5G channel estimation (Published at ICODT 2025)
 - **Previously:** SWE Intern @ Apna-Wifi (NSTP)
 ---
 
