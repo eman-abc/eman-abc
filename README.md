@@ -16,7 +16,8 @@ I'm a Software Engineer from **NUST, Islamabad**, building AI systems across the
 - **NASA OSDR AIML Working Group**: ML on space biology imaging datasets (OSD-366)
 - **Previously: Machine Learning Intern @ SINES EmbedAIoT Lab** — Architected edge-optimized CNNs for 5G channel estimation (Published at ICODT 2025)
 - **Previously:** SWE Intern @ Apna-Wifi (NSTP)
-
+- 
+[![Checkout my Resume!](./resume-thumbnail.png)](./resume.pdf)
 ---
 
 ## Featured Projects & Research
