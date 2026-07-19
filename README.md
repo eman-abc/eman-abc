@@ -9,10 +9,19 @@
 ---
 
 ## About Me
-
-<a href="https://github.com/eman-abc/eman-abc/blob/main/Eman_Resume%20github.pdf">
-  <img align="right" src="./image.png" alt="Resume Thumbnail" width="180">
-</a>
+<table align="right">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/eman-abc/eman-abc/blob/main/Eman_Resume%20github.pdf">
+        <img src="./image.png" alt="Resume Thumbnail" width="180">
+      </a>
+      <br>
+      <a href="https://github.com/eman-abc/eman-abc/blob/main/Eman_Resume%20github.pdf">
+        <strong><em>Checkout my Resume</em></strong>
+      </a>
+    </td>
+  </tr>
+</table>
 
 I'm a Software Engineer from **NUST, Islamabad**, building AI systems across the full stack, from LLM fine-tuning and RAG pipeline architecture to React/FastAPI applications and cloud deployment.
 
