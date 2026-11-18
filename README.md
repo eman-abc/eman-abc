@@ -57,7 +57,7 @@ I combine large behavioural audits with **causal interpretability** (activation 
 
 ### Research projects
 
-#### [Lightweight CNN-BiGRU for Human Activity Recognition](https://github.com/eman-abc/HAR) (ongoing)
+#### [Lightweight CNN-BiGRU for Human Activity Recognition](https://github.com/eman-abc/HAR)
 > `TensorFlow` `PyTorch` `Knowledge Distillation` `INT8 Quantization` `Structured Pruning`
 
 - **99.7% fewer parameters** than a HARDenseRNN baseline (33.7M to 90,066) with accuracy 95.21% and macro-F1 87.08% on WISDM.
